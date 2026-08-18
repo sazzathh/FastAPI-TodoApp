@@ -4,7 +4,7 @@ from sqlalchemy.ext.declarative import declarative_base
 
 #SQLALCHEMY_DATABASE_URL = 'postgresql://postgres:password@localhost/TodoApplicationDatabase'
 #SQLALCHEMY_DATABASE_URL = 'mysql+pymysql://root:password@127.0.0.1:3306/todoapplicationdatabase'
-SQLALCHEMY_DATABASE_URL = 'sqlite:///./todosapp.db'
+SQLALCHEMY_DATABASE_URL = 'postgresql://postgres.jwicfmieovovqmvdrpgf:1234sazzath1234@aws-0-ap-southeast-1.pooler.supabase.com:5432/postgres'
 
 engine = create_engine(SQLALCHEMY_DATABASE_URL)
 
